@@ -1,8 +1,5 @@
 import axios from 'axios';
-import * as cheerio from 'cheerio';
 
-
-// This is the structure of the player data we recieve
 export interface ListingData {
   title: string; 
   location: string;

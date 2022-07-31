@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Grid, Typography } from '@mui/material';
+import { Button, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 
 import { useAppSelector, useAppDispatch } from '../app/hooks';
 import {

@@ -1,7 +1,5 @@
 import logo from './Blush.svg';
 import './App.css';
-import { Button } from '@mui/material';
-import { getPropertyList } from './scraper';
 import { Listing } from './features/Listing';
 
 function App() {
