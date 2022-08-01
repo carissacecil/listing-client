@@ -1,9 +1,6 @@
 import { Button, Card, CardActionArea, CardContent, CardMedia, Grid, Typography } from '@mui/material';
-
 import { useAppSelector, useAppDispatch } from '../app/hooks';
-import {
-  getListing, selectListings
-} from './listingSlice';
+import { getListing, selectListings } from './listingSlice';
 import styles from './Listing.module.css';
 
 export function Listing() {
@@ -23,7 +20,7 @@ export function Listing() {
           height="140"
           image={listing.frontImage}
           alt="property image"
-        />
+      />
       <Button size="small" href={listing.detailLink}>{listing.title}</Button>
       <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           {listing.location}
@@ -32,7 +29,7 @@ export function Listing() {
           {listing.price}
       </Typography>
       </CardActionArea>
-       </CardContent>
+      </CardContent>
     </Card>
     </Grid>);
 
